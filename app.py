@@ -1,8 +1,6 @@
 # Import modules
 import streamlit as st
-from transformers import pipeline
-from transformers import AutoTokenizer
-from transformers import AutoModelForCausalLM
+from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 
 # Load model and tokenizer
 model = AutoModelForCausalLM.from_pretrained("Ram07/emp1_dialog")
